@@ -11,7 +11,7 @@ allows us to "shrink" or remove those coefficients without affecting the signal 
 From here speckle noise is suppressed by applying some thresholding value and then inverse wavelet transform is applied to get noise reduction image.
 <p align="center">
   <img src="ref/wavelet.png"><br/>
-  <i>GAN over the years.</i>
+  
 </p>
 
 ## Bilateral Filtering
@@ -39,8 +39,7 @@ As the name suggest it works by calculating the mean value of bunch of pixel and
   on the similarity between the pixel i and j. In another words similar pixel n neighbourhood’s give larger weights. 
 <p align="center">
   <img src="ref/nlm.png"><br/>
-  <i>GAN over the years.</i>
-</p>
+ </p>
 
 ## BM3D:
 Block-matching and 3D filtering (BM3D) is a 3-D block-matching algorithm that is primarily used for noise reduction in images. 
@@ -53,8 +52,8 @@ stacked together to form 3D cylinder-like shapes. Then filtering is done on ever
 transform filter i.e. Wiener filtering. . then transform is inverted to reproduce all filtered blocks 
 2D form when all overlapping image fragments are weight-averaged to ensures that they are filtered for noise yet retain their distinct signal.
 <p align="center">
-  <img src="ref/bm3d.png"><br/>
-  <i>GAN over the years.</i>
+  <img src="ref/bm3d.PNG"><br/>
+  
 </p>
 
 
