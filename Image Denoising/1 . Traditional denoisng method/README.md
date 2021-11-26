@@ -11,7 +11,7 @@ allows us to "shrink" or remove those coefficients without affecting the signal 
 From here speckle noise is suppressed by applying some thresholding value and then inverse wavelet transform is applied to get noise reduction image.
 <p align="center">
   <img src="ref/wavelet.png"><br/>
-  <i> Block diagram of How Wavelet alorithm work.</i>
+  <i> Block diagram of how Wavelet algorithm works.</i>
 </p>
 
 ## Bilateral Filtering
@@ -39,7 +39,7 @@ As the name suggest it works by calculating the mean value of bunch of pixel and
   on the similarity between the pixel i and j. In another words similar pixel n neighbourhood’s give larger weights. 
 <p align="center">
   <img src="ref/nlm.png"><br/>
-  <i>Block diagram of How Non-Local-Means Algorithm works.</i>
+  <i>Block diagram of how Non-Local-Means algorithm works.</i>
 </p>
 
 ## BM3D:
@@ -53,7 +53,7 @@ stacked together to form 3D cylinder-like shapes. Then filtering is done on ever
 transform filter i.e. Wiener filtering. . then transform is inverted to reproduce all filtered blocks 
 2D form when all overlapping image fragments are weight-averaged to ensures that they are filtered for noise yet retain their distinct signal.
 <p align="center">
-  <img src="ref/BM3D.png"><br/>
+  <img src="ref/bm3d.PNG"><br/>
   <i>Block diagram of how Block Matching 3D algorithm work.</i>
 </p>
 
