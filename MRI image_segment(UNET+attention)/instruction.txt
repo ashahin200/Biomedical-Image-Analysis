@@ -1,0 +1,15 @@
+1. download dataset and preprocess it using the file.
+2. train the model with corresponding file
+3. save the modle.weight (.hdf5 file)
+4. run the test file
+ 
+
+
+environment:
+python- 3.10
+tensoflow - 2.10
+import os
+import glob
+import pathlib
+import shutil
+import numpy, matplotlib, PIL, cv2
