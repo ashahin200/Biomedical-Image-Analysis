@@ -21,7 +21,8 @@
 
 ## Dependencies:
 ##### python 3.10
-##### Tensorflow 2.10##### Keras
+##### Tensorflow 2.10
+##### Keras
 and latest version of
 ##### Numpy
 ##### Pillow 
